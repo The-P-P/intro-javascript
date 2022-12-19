@@ -26,6 +26,43 @@ console.log(operacao5)
 
 // NaN -> NOT A NUMBER ( nao eh um numero )
 
-const alura  = 'alura'
-
+const alura  = 'alura';
 console.log(alura * num3)
+
+// tipos str
+const text1 = 'ola mundo';
+const text2 = "ola mundo";
+const senha = 'senha123123@!#!@';
+const strNum =  '434343234';
+
+const citacao = 'ola pedro "oi!"';
+
+console.log(citacao)
+
+// concatenacao ( + )
+
+const contatenacao =  text1 + senha;
+
+console.log(contatenacao)
+
+// template str ou literal
+
+
+// boolean
+
+const num5 = 5;
+const num6 = 10;
+const num7 = 5;
+const boolean1 = num5 === num6
+
+const boolean2 = num5 === num7
+
+console.log(boolean1)
+console.log(boolean2)
+
+const text3 =  'pedro';
+const text4 = 'w'
+
+const boolean3 =  text3 === text4 // tambem vale para letras maiusculas e minusculas
+
+console.log(boolean3)
