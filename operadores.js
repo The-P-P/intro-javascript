@@ -32,3 +32,17 @@ else{
 }
             //condicao                       //true     //false
 console.log(idade_cliente >= idade_minima ? 'cerveja' : 'suco')
+
+
+// templete str
+
+const nome = 'pp'
+const idade = 2022 - 2001
+const cidade = 'Sao Luis'
+
+const apresentacao1 = 'meu apelido eh ' + nome + ', minha idade eh ' + idade + ' moro em ' + cidade;
+
+const apresentacao2 = `meu apelido eh ${nome} , minha idade eh ${idade} moro em cidade ${cidade}`;
+
+console.log(apresentacao1)
+console.log(apresentacao2)
