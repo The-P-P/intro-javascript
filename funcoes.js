@@ -45,8 +45,40 @@ console.log(nomeIdade(21, 'pp'))
 
 
 
-function multiplaca(num = 1, num = 1 ) {
-    return num *  num
+function multiplaca(num1 = 1, num2 = 1 ) {
+    return num1 *  num2
 };
 
 console.log(multiplaca(soma1 (4, 5 )))
+
+// expressao de funcao 
+//diferenca principal : hoisting
+//funcoes e var sao "listadas" no topo do arquivo
+
+console.log(apresentar())
+function apresentar(){
+    return 'ola';
+}
+
+console.log(soma2(1, 1))
+const soma2 = function(num1, num2){
+    return num1 + num2
+}
+
+//arrow-function
+
+const arrow = nome => `meu nome eh ${nome}`;
+const soma3 = (num1, num2) => num1 + num2;
+
+// arrow com + de uma linha
+
+const nump = (num1, num2) => {
+    if (num1 > 10 || num2 > 10){
+        return 'somente numeros de 1 a 9';
+    }
+    else{
+        return num1 + num2;
+    }
+}
+
+// hoinsting: arrow se comporta com expressao
