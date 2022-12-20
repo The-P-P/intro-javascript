@@ -19,4 +19,16 @@ console.log(typeof texto)
 Number()
 String()
 
-//
+//ternarios
+
+const idade_minima = 18;
+const idade_cliente = 16;
+
+if ( idade_cliente >= idade_minima){
+    console.log('cerveja')
+}
+else{
+    console.log('suco')
+}
+            //condicao                       //true     //false
+console.log(idade_cliente >= idade_minima ? 'cerveja' : 'suco')
